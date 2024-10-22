@@ -1,0 +1,38 @@
+.contentGetStarted h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 112%;
+    text-align: center;
+    color: #fff;
+}
+.contentGetStarted button {
+    border-radius: 100px;
+    padding: 14px 32px;
+    box-shadow: 0 4px 4px 0 rgba(18, 23, 34, 0.01);
+    background: #fff;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #4058ff;
+    cursor: pointer;
+}
+.contentGetStarted {
+    background: #4058ff;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 18px;
+    padding: 124px 0 120px 0;
+}
+@media only screen and (max-width: 425px) {
+    .contentGetStarted h2 {
+        font-size: 26px;
+    }
+}

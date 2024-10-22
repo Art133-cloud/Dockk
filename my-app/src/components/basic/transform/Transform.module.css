@@ -1,0 +1,29 @@
+.transformContent h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #121722;
+}
+.transformContent p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 152%;
+    text-align: center;
+    color: rgba(18, 23, 34, 0.7);
+}
+.transformContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    padding: 79px 0 48px 0;
+}
+@media only screen and (max-width: 717px) {
+    .transformContent h2 {
+        font-size: 25px;
+    }
+    .transformContent p {
+        font-size: 17px;
+    }
+}

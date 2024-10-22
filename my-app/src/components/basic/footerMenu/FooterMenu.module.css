@@ -1,0 +1,13 @@
+.footerMenuContent a {
+    text-decoration: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #121722;
+}
+.footerMenuContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}

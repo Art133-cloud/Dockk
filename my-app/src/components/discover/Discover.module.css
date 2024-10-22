@@ -1,0 +1,73 @@
+.contentDiscover {
+    width: 100%;
+    border-radius: 16px;
+    background: rgba(241, 245, 255, 0.5);
+    padding: 80px;
+    margin-bottom: 113px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.leftTextsDiscover {
+    width: 346px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.leftTextsDiscover h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 112%;
+    color: #121722;
+}
+.leftTextsDiscover p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: rgba(18, 23, 34, 0.7);
+}
+.cardsDiscover {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+@media only screen and (max-width: 1207px) {
+    .contentDiscover {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 45px;
+    }
+    .leftTextsDiscover {
+        width: 70%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .leftTextsDiscover {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 653px) {
+    .cardsDiscover {
+        flex-direction: column;
+    }
+    .leftTextsDiscover {
+        width: 100%;
+    }
+    .leftTextsDiscover h2 {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 449px) {
+    .leftTextsDiscover h2 {
+        font-size: 22px;
+    }
+    .leftTextsDiscover p {
+        font-size: 18px;
+    }
+    .contentDiscover {
+        padding: 50px;
+    }
+}

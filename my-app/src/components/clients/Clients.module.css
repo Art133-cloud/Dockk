@@ -1,0 +1,85 @@
+.contentClients {
+    width: 100%;
+    border-radius: 16px;
+    background: #4058ff;
+    padding: 80px 36px 80px 48px;
+}
+.leftClients {
+    width: 355px;
+}
+.topText h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 112%;
+    color: #fff;
+}
+.leftClients p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: #e8f1ffda;
+}
+.topText p {
+    width: 306px;
+}
+.bottomText p {
+    width: 282px;
+}
+.topText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-bottom: 44px;
+    border-bottom: 1px solid #4b93ff;
+}
+.bottomText {
+    padding-top: 19px;
+}
+.bottomText a img {
+    padding-top: 16px;
+}
+.contentClients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1193px) {
+    .rightClients img {
+        width: 100%;
+    }
+    .topText h2 {
+        font-size: 25px;
+    }
+    .leftClients p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 905px) {
+    .contentClients {
+        padding: 80px 12px 80px 12px;
+    }
+}
+@media only screen and (max-width: 837px) {
+    .contentClients {
+        padding: 20px 12px 40px 12px;
+    }
+    .contentClients {
+        flex-direction: column-reverse;
+    }
+    .leftClients {
+        width: 90%;
+    }
+    .topText p {
+        width: 90%;
+    }
+    .bottomText p {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 401px) {
+    .topText h2 {
+        font-size: 21px;
+    }
+}

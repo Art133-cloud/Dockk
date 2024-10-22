@@ -1,0 +1,28 @@
+.basicCard h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: #121722;
+}
+.basicCard p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: rgba(18, 23, 34, 0.6);
+    padding-top: 5px;
+}
+.basicCard {
+    width: 532px;
+}
+@media only screen and (max-width: 1285px) {
+    .basicCard {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 875px) {
+    .basicCard img {
+        width: 320px;
+    }
+}

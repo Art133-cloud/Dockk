@@ -1,0 +1,18 @@
+.childCard {
+    display: flex;
+    justify-content: space-between;
+}
+.secondImgCard {
+    margin-top: 144px;
+}
+@media only screen and (max-width: 1070px) {
+    .childCard {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondImgCard {
+        margin-top: 30px;
+    }
+}

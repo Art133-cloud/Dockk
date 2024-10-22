@@ -1,0 +1,65 @@
+.childExcel {
+    border-radius: 16px;
+    background: rgba(241, 245, 255, 0.5);
+    width: 100%;
+    padding: 80px 48px 48px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+.rightExcel {
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.rightExcel h2 {
+    width: 283px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 112%;
+    color: #121722;
+}
+.rightExcel p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: rgba(18, 23, 34, 0.7);
+}
+@media only screen and (max-width: 1221px) {
+    .leftExcel img {
+        width: 100%;
+    }
+    .rightExcel {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 975px) {
+    .rightExcel h2 {
+        width: 90%;
+        font-size: 25px;
+    }
+    .rightExcel p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .childExcel {
+        flex-direction: column-reverse;
+        row-gap: 25px;
+    }
+    .rightExcel {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .rightExcel h2 {
+        font-size: 21px;
+    }
+    .rightExcel p {
+        font-size: 15px;
+    }
+}

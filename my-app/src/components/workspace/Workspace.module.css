@@ -1,0 +1,62 @@
+.parentWorkspace {
+    padding-top: 40px;
+}
+.contentWorkspace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftWorkspace {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.leftWorkspace h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    color: #121722;
+}
+.leftWorkspace p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: rgba(18, 23, 34, 0.7);
+}
+.leftWorkspace button {
+    border-radius: 100px;
+    width: 158px;
+    box-shadow: 0 4px 4px 0 rgba(18, 23, 34, 0.01);
+    background: #4058ff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+}
+@media only screen and (max-width: 1065px) {
+    .rightWorkspace img {
+        width: 100%;
+    }
+    .leftWorkspace h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 645px) {
+    .contentWorkspace {
+        flex-direction: column-reverse;
+        row-gap: 25px;
+    }
+    .leftWorkspace {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+}

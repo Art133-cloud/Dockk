@@ -1,0 +1,13 @@
+.basicButton {
+    border-radius: 20px;
+    background: rgba(64, 140, 255, 0.1);
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: #4058ff;
+}

@@ -1,0 +1,21 @@
+.cardItem p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(18, 23, 34, 0.46);
+}
+.cardItem h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #121722;
+}
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
